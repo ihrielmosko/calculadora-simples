@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\teste\\teste.csproj": {}
+    "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\projetos\\calculadora simples\\teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\teste\\teste.csproj": {
+    "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\projetos\\calculadora simples\\teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\teste\\teste.csproj",
+        "projectUniqueName": "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\projetos\\calculadora simples\\teste.csproj",
         "projectName": "teste",
-        "projectPath": "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\teste\\teste.csproj",
+        "projectPath": "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\projetos\\calculadora simples\\teste.csproj",
         "packagesPath": "C:\\Users\\ihrie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\teste\\obj\\",
+        "outputPath": "C:\\Users\\ihrie\\OneDrive\\Área de Trabalho\\projetos\\calculadora simples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ihrie\\AppData\\Roaming\\NuGet\\NuGet.Config"
