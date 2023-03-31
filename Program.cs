@@ -6,32 +6,25 @@ namespace teste
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
-            Console.WriteLine("Escolha o operador (digite o número designado)");
+            Console.WriteLine("\nEscolha o operador (digite o número designado)");
             Console.WriteLine("0 - soma");
             Console.WriteLine("1 - subtração");
             Console.WriteLine("2 - multiplicação");
             Console.WriteLine("3 - divisão");
-            string stringOperador = Console.ReadLine();
-            Console.WriteLine("");
+            Console.WriteLine("4 - resto(em breve)");
+            Console.WriteLine("5 - exponenciação(em breve)");
+            Console.WriteLine("6 - radiciação(em breve)");
+            Console.WriteLine("7 - mais opções(inativo)");
 
-            Console.WriteLine("Digite o primeiro número");
-            string stringA = Console.ReadLine();
-            Console.WriteLine("");
+            int operador = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Digite o segundo número");
-            string stringB = Console.ReadLine();
-            Console.WriteLine("");
+            Console.WriteLine("\nDigite o primeiro número");
+            int a = Convert.ToInt32(Console.ReadLine());
 
-            //Conversão das informações de texto em int
+            Console.WriteLine("\nDigite o segundo número");
+            int b = Convert.ToInt32(Console.ReadLine());
 
-            int a = Convert.ToInt32(stringA);
-            int b = Convert.ToInt32(stringB);
-            int operador = Convert.ToInt32(stringOperador);
-
-            //cálculo
-
-            Console.WriteLine("Resultado");
+            Console.WriteLine("\nResultado");
             int resultado = 0;
 
             if (operador == 0) {resultado = a + b;}
