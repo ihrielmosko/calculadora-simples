@@ -18,6 +18,12 @@ namespace teste
 
             int operador = Convert.ToInt32(Console.ReadLine());
 
+            while (operador < 0 || operador > 3)
+            {
+                Console.WriteLine("\nOperador inválido, digite outro\n");
+                operador = Convert.ToInt32(Console.ReadLine());
+            }
+
             Console.WriteLine("\nDigite o primeiro número");
             int a = Convert.ToInt32(Console.ReadLine());
 
@@ -26,6 +32,7 @@ namespace teste
 
             Console.WriteLine("\nResultado");
             
+            //
 
             int resultado = operador == 0 ? a + b :
                             operador == 1 ? a - b :
@@ -33,13 +40,7 @@ namespace teste
                             operador == 3 ? a / b :
                             0;
             
-            if (operador < 0 && operador > 3) {
-                Console.WriteLine("Operador inválido");
-            } else {
-                Console.WriteLine(resultado);
-            }
-                
-
+            Console.WriteLine(resultado);
 
         }
     }
