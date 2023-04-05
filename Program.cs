@@ -25,15 +25,22 @@ namespace teste
             int b = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("\nResultado");
-            int resultado = 0;
+            
 
-            if (operador == 0) {resultado = a + b;}
-            else if (operador == 1) {resultado = a - b;}
-            else if (operador == 2) {resultado = a * b;}
-            else if (operador == 3) {resultado = a / b;}
-            else {Console.WriteLine("Operador inválido");}
-            Console.WriteLine(resultado);
-            Console.WriteLine("");
+            int resultado = operador == 0 ? a + b :
+                            operador == 1 ? a - b :
+                            operador == 2 ? a * b :
+                            operador == 3 ? a / b :
+                            0;
+            
+            if (operador < 0 && operador > 3) {
+                Console.WriteLine("Operador inválido");
+            } else {
+                Console.WriteLine(resultado);
+            }
+                
+
+
         }
     }
 }
