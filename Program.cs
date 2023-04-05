@@ -6,7 +6,7 @@ namespace teste
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\nEscolha o operador (digite o número designado)");
+            Console.WriteLine("\nEscolha o operador (digite o número do operador escolhido)");
             Console.WriteLine("0 - soma");
             Console.WriteLine("1 - subtração");
             Console.WriteLine("2 - multiplicação");
@@ -25,16 +25,16 @@ namespace teste
             }
 
             Console.WriteLine("\nDigite o primeiro número");
-            int a = Convert.ToInt32(Console.ReadLine());
+            float a = Convert.ToSingle(Console.ReadLine());
 
             Console.WriteLine("\nDigite o segundo número");
-            int b = Convert.ToInt32(Console.ReadLine());
+            float b = Convert.ToSingle(Console.ReadLine());
 
             Console.WriteLine("\nResultado");
             
             //
 
-            int resultado = operador == 0 ? a + b :
+            float resultado = operador == 0 ? a + b :
                             operador == 1 ? a - b :
                             operador == 2 ? a * b :
                             operador == 3 ? a / b :
