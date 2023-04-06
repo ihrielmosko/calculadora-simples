@@ -40,7 +40,7 @@ namespace teste
                             operador == 3 ? a / b :
                             0;
             
-            Console.WriteLine(resultado);
+            Console.WriteLine(resultado + " ");
 
         }
     }
